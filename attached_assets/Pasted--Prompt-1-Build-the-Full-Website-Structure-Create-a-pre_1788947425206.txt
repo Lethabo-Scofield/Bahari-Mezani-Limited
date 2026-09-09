@@ -1,0 +1,895 @@
+## Prompt 1 — Build the Full Website Structure
+
+Create a premium, modern 6-page marketing website for **Bahari Mezani Limited**, a Kenyan blue-economy company based in Kilifi, coastal Kenya.
+
+The company operates **Samaki Freshi**, a solar-powered cold-chain system designed to reduce post-harvest fish loss by placing off-grid cold storage directly at fish landing sites and transporting fish through refrigerated logistics.
+
+This is a marketing and company website, not a web application.
+
+### Pages
+
+Create:
+
+1. Home — `/`
+2. About Us — `/about`
+3. Cold Storage & Fleet — `/cold-storage`
+4. Products — `/products`
+5. Impact — `/impact`
+6. Contact — `/contact`
+
+### Brand Direction
+
+The visual identity should feel:
+
+* Serious and commercially credible
+* Premium but accessible
+* Coastal East African
+* Infrastructure-focused
+* Human and community-driven
+* Suitable for B2B buyers, investors, development partners and consumers
+
+Do not make it look like a generic NGO or sustainability template.
+
+Avoid:
+
+* Beige sustainability aesthetics
+* Terracotta palettes
+* Excessive gradients
+* Excessive rounded cards
+* Decorative icons everywhere
+* Generic stock-business imagery
+* Over-animation
+
+### Colours
+
+Use:
+
+* Navy: `#0D2B45`
+* Teal: `#00796B`
+* Light teal: `#E0F5F2`
+* Gold: `#C8A84B`
+* White: `#FFFFFF`
+* Off-white: `#F7F9F8`
+* Primary text: `#1A1A2E`
+* Secondary text: `#5A6474`
+* Border: `#DDE5E3`
+
+### Typography
+
+Headlines:
+**DM Serif Display**
+
+Body/UI:
+**Inter**
+
+Typography should use strong editorial hierarchy, generous whitespace and short readable text widths.
+
+### Navigation
+
+Create a fixed navigation bar:
+
+Logo
+
+Home
+About Us
+Cold Storage & Fleet
+Products
+Impact
+Contact
+
+Primary CTA:
+
+**Order via WhatsApp**
+
+WhatsApp number:
+
+`+254 768 066 569`
+
+On the homepage hero, navigation can initially be transparent and transition into navy when scrolling.
+
+Mobile navigation should use a clean full-screen menu.
+
+### Global Design
+
+Use:
+
+* 8px spacing system
+* Generous section padding
+* Maximum body text width around 68 characters
+* Cards with approximately 12px radius
+* Buttons around 6px radius
+* Very subtle shadows only
+* Strong photography
+* Large statistics
+* Large editorial headlines
+* Responsive layouts designed properly for 1440px, 768px and 390px
+
+Use subtle fades and scroll reveals where appropriate, but avoid unnecessary animation.
+
+---
+
+# Prompt 2 — Home Page
+
+Design the homepage for Bahari Mezani.
+
+The page must immediately explain the problem, solution, commercial model and impact.
+
+## Hero
+
+Use a full-screen coastal Kenya / fish landing / cold-room photograph.
+
+Add a dark navy overlay for readability.
+
+Eyebrow:
+
+**Samaki Freshi · Kilifi, Coastal Kenya**
+
+Headline on three separate lines:
+
+**Fresh Fish.**
+**No Spoilage.**
+**Solar Cold Chain.**
+
+Supporting text:
+
+Bahari Mezani installs solar-powered cold rooms at coastal landing sites — reducing post-harvest loss and delivering cold-chain-verified fish from ocean to market.
+
+Buttons:
+
+**Explore Our Work**
+
+**Order via WhatsApp**
+
+Keep the hero visually bold and simple.
+
+Do not animate the headline heavily.
+
+---
+
+## Problem Section
+
+Dark navy background.
+
+Headline:
+
+**Every day along Kenya's coast, up to 40% of the catch spoils before it reaches a buyer.**
+
+Supporting copy:
+
+Not because of poor fishing. Because there is no cold storage where the fish lands. Bahari Mezani was founded to close that infrastructure gap.
+
+Make this section emotionally strong but commercially credible.
+
+---
+
+## How It Works
+
+Create a four-step sequential process.
+
+### 1. Purchase
+
+Fish purchased directly from 60+ fishermen at fair market rates upon landing.
+
+### 2. Preserve
+
+Fish cleaned, graded and stored in solar-powered cold rooms operating at 0°C–4°C.
+
+### 3. Transport
+
+Refrigerated trucks, e-bikes and tuk-tuks maintain the cold chain.
+
+### 4. Sell
+
+Fish reaches hotels, butcheries, Mama Karanga traders, institutions and walk-in customers.
+
+Connect the four steps visually with a thin teal line on desktop.
+
+---
+
+## Impact Statistics
+
+Create a full-width teal statistics section.
+
+Display:
+
+**120+**
+Women Fish Traders Supported
+
+**60+**
+Fishermen in Supply Chain
+
+**30**
+Youth Employed
+
+**1,400**
+Mangroves Restored
+
+For the fish-loss statistic, phrase it conservatively as:
+
+**Up to 40%**
+Post-Harvest Loss Problem Addressed
+
+Use large gold numbers and white labels.
+
+---
+
+## Who We Serve
+
+Headline:
+
+**Who We Serve**
+
+Three cards:
+
+### B2C
+
+Retail & Community
+
+Mama Karanga traders and walk-in customers.
+
+### B2B
+
+Hotels & Butcheries
+
+Wholesale fish supply for hospitality and retailers.
+
+### B2I
+
+Schools & Institutions
+
+Bulk supply contracts for institutional kitchens.
+
+Below the cards display:
+
+Cold Storage Rental · Fish Sales Margin · Logistics Fees · Processing Premium
+
+---
+
+## Partners
+
+Create a minimal partner-logo strip.
+
+Use grayscale logos which reveal colour on hover.
+
+Do not use a carousel unless there are enough partners to justify it.
+
+---
+
+## CTA
+
+Dark navy section.
+
+Headline:
+
+**Ready to source cold-chain-verified fish?**
+
+Copy:
+
+Whether you run a hotel kitchen, school canteen or market stall, Samaki Freshi delivers fresh fish while maintaining the cold chain.
+
+Buttons:
+
+**Order via WhatsApp**
+
+**Get in Touch**
+
+---
+
+# Prompt 3 — About Page
+
+Create the Bahari Mezani About Us page.
+
+## Hero
+
+Split-screen layout.
+
+Left: copy.
+
+Right: authentic coastal Kenya operational photography.
+
+Eyebrow:
+
+**Our Story**
+
+Headline:
+
+**Built at the landing site.**
+
+Body:
+
+Bahari Mezani was founded by Alphonce Ochieng Owiti after observing that fish landed fresh every morning along Kenya's coast, but significant portions became unsaleable before reaching buyers.
+
+The problem was not supply.
+
+It was infrastructure.
+
+Cold storage capable of operating through coastal power outages was missing precisely where it was needed.
+
+---
+
+## The Problem
+
+Create four problem cards:
+
+### No cold storage at landing sites
+
+Fish can spoil within hours after landing.
+
+### Unreliable power grid
+
+Long power interruptions make conventional cold rooms difficult to operate.
+
+### Women traders bear the loss
+
+Mama Karanga traders absorb spoilage losses without reliable cold-chain infrastructure.
+
+### Youth unemployment
+
+Coastal communities have limited formal employment opportunities.
+
+---
+
+## Samaki Freshi
+
+Headline:
+
+**A solar cold chain built for the coast.**
+
+Explain that Samaki Freshi uses 40-foot solar-powered cold-storage containers positioned at fish landing sites.
+
+Operating temperature:
+
+**0°C–4°C**
+
+Operating model:
+
+**Off-grid, 24/7**
+
+The cold rooms connect to refrigerated trucks, e-bikes and tuk-tuks.
+
+Show three feature callouts:
+
+**Off-Grid Solar**
+
+**End-to-End Cold Chain**
+
+**Community-Integrated Model**
+
+---
+
+## Leadership
+
+Create a CMS-powered team section.
+
+Fields:
+
+* Name
+* Role
+* Headshot
+* Bio
+
+Current leadership:
+
+Alphonce Ochieng Owiti — Founder & CEO
+Zipporah Rehema — Managing Director
+Cliff Austine Obonyo — Chief Finance Officer
+Yvonne Atieno — Head of Programs
+Ruth Wanjiru — Head of Marketing
+Agnes Bokole — Production Manager
+Hephisiba Zale — Administrative Manager
+Afyle Akinyi — Sourcing Manager
+
+Use professional initials placeholders when headshots are unavailable.
+
+---
+
+## Values
+
+Four columns:
+
+Sustainability
+Inclusion
+Innovation
+Integrity
+
+Keep this section restrained and professional.
+
+---
+
+# Prompt 4 — Cold Storage & Fleet Page
+
+Create a technical but visually engaging infrastructure page.
+
+Hero headline:
+
+**Cold-chain infrastructure built for coastal Kenya.**
+
+Supporting text:
+
+Solar-powered. Off-grid. Operating 24/7 at 0°C–4°C.
+
+---
+
+## Solar Cold Rooms
+
+Use a split layout with a large photograph and specifications.
+
+Display:
+
+**Unit Type**
+40ft shipping container, solar-powered
+
+**Operating Temperature**
+0°C–4°C
+
+**Power Source**
+100% solar, off-grid
+
+**Grid Dependency**
+None
+
+**Location**
+Coastal fish landing sites
+
+**Operating Hours**
+24/7
+
+Make this feel like real infrastructure, not a generic product feature section.
+
+---
+
+## Cold Chain Process
+
+Reuse the:
+
+Purchase → Preserve → Transport → Sell
+
+process but make it more detailed and photography-driven.
+
+Do not invent unverified operational statistics.
+
+---
+
+## Fleet
+
+Create three large visual cards:
+
+### Refrigerated Trucks
+
+Long-distance cold delivery to hotels, butcheries and institutions.
+
+### E-Bikes
+
+Low-emission last-mile delivery around coastal towns.
+
+### Tuk-Tuks
+
+High-frequency short-distance distribution to depots and traders.
+
+Headline:
+
+**Cold Logistics Fleet**
+
+Supporting message:
+
+Preservation doesn't stop at the cold-room door. The fleet maintains cold conditions throughout delivery.
+
+---
+
+## CTA
+
+Headline:
+
+**Rent cold storage space.**
+
+Explain that landing-site operators and fish traders can enquire about renting storage space without purchasing equipment.
+
+CTA:
+
+**Enquire via WhatsApp**
+
+---
+
+# Prompt 5 — Products Page
+
+Create a visually strong seafood product page designed primarily to generate WhatsApp orders.
+
+Hero:
+
+**Cold-chain verified.**
+**Direct from the coast.**
+
+Supporting copy:
+
+Fish sourced from more than 60 local fishermen, stored, graded and distributed through the Samaki Freshi cold chain.
+
+---
+
+## Product Categories
+
+Two large photography-led cards.
+
+### Fresh Fish
+
+Label:
+
+**Daily Fresh**
+
+Whole fish sourced daily from landing sites along the Kilifi coast.
+
+Stored chilled at 0°C–4°C.
+
+Fish varieties depend on the day's catch.
+
+Tags:
+
+Cold-Chain Verified
+Freshly Sourced
+No Preservatives
+
+### Cleaned & Graded Seafood
+
+Label:
+
+**Value-Added**
+
+Cleaned, graded and packaged seafood for hotels, butcheries and institutional customers.
+
+Tags:
+
+Cleaned & Graded
+Packaged
+Wholesale Available
+
+---
+
+## Who We Supply
+
+Three customer segments:
+
+B2C — Mama Karanga & Walk-In Customers
+
+B2B — Hotels, Restaurants & Butcheries
+
+B2I — Schools & Institutions
+
+---
+
+## Ordering
+
+Headline:
+
+**Order in three steps.**
+
+### 1
+
+**Message Us on WhatsApp**
+
+Send fish type, quantity and delivery location.
+
+### 2
+
+**We Confirm & Pack**
+
+The order is confirmed, picked from cold storage, graded and packed.
+
+### 3
+
+**Collect or Receive Delivery**
+
+Collect from a Samaki Freshi hub or arrange refrigerated delivery.
+
+Create a strong statistics strip:
+
+**100% Cold-Chain Verified**
+
+**Same-Day Hub Collection**
+
+**Zero Apps**
+
+Primary CTA:
+
+**Order via WhatsApp**
+
+Number:
+
++254 768 066 569
+
+---
+
+# Prompt 6 — Impact Page
+
+Create an impact page that combines strong photography with measurable results.
+
+Do not design it like a generic NGO infographic.
+
+Hero headline:
+
+**This is what 1,400 mangroves and 120+ livelihoods look like.**
+
+Supporting copy:
+
+Bahari Mezani measures its impact through stronger livelihoods, coastal employment and protection of marine ecosystems alongside the growth of its cold-chain business.
+
+---
+
+## Impact Dashboard
+
+Display:
+
+120+ Women Fish Traders Supported
+
+60+ Fishermen in Supply Chain
+
+30 Youth Employed
+
+1,400 Mangroves Restored
+
+Up to 40% Post-Harvest Loss Challenge Addressed
+
+---
+
+## Women
+
+Headline:
+
+**Protecting the backbone of Kenya's coastal fish economy.**
+
+Explain the role of Mama Karanga traders and how access to cold-chain infrastructure can reduce spoilage exposure and improve product consistency.
+
+Statistic:
+
+**120+ women supported**
+
+---
+
+## Youth
+
+Headline:
+
+**30 young people employed in the cold economy.**
+
+Use strong photography of logistics operations.
+
+---
+
+## Mangroves
+
+Full-width photographic section.
+
+Headline:
+
+**Mangroves are nurseries of the sea.**
+
+Statistic:
+
+**1,400 mangroves restored**
+
+Target:
+
+**50,000 by 2030**
+
+---
+
+## Fishermen
+
+Headline:
+
+**Fair pricing. Direct relationships.**
+
+Explain Bahari Mezani's direct supply relationships with more than 60 local fishermen.
+
+---
+
+## Growth Roadmap
+
+Create a three-stage timeline.
+
+### Phase 1
+
+2024–2026
+
+Target:
+2 cold rooms
+300 community members
+Seed funding
+
+### Phase 2
+
+2027–2029
+
+Target:
+10 cold rooms
+3 coastal counties
+Full logistics fleet
+
+### Phase 3
+
+2030+
+
+Target:
+25 cold rooms
+500+ value-chain actors
+50,000 mangroves
+
+Clearly communicate these as roadmap targets rather than current achievements.
+
+---
+
+# Prompt 7 — Contact Page
+
+Create a minimal, conversion-focused contact page.
+
+Hero:
+
+**Let's talk fish.**
+
+Supporting text:
+
+Whether you're sourcing for a hotel kitchen, exploring a partnership or interested in investing in Kenya's blue economy, get in touch.
+
+---
+
+## Contact Details
+
+WhatsApp / Phone:
+
+**+254 768 066 569**
+
+Email:
+
+**[baharimezani@outlook.com](mailto:baharimezani@outlook.com)**
+
+Address:
+
+**Baobab Plaza, Charo Wa Mae Road
+Kilifi, Kenya
+P.O. Box 195 – 80108**
+
+Create a prominent:
+
+**Message Us on WhatsApp**
+
+button.
+
+Embed a Google Map for Kilifi, Kenya.
+
+---
+
+## Contact Form
+
+Fields:
+
+Full Name — required
+Organisation — optional
+Email — required
+Phone / WhatsApp — optional
+
+Enquiry Type:
+
+Buying Fish
+Cold Storage Rental
+Partnership
+Investment
+Media
+General
+
+Message — required
+
+Use Framer Forms.
+
+Send submissions to:
+
+[baharimezani@outlook.com](mailto:baharimezani@outlook.com)
+
+On mobile, WhatsApp should be considerably more prominent than the form.
+
+---
+
+# Prompt 8 — CMS Setup
+
+Configure Framer CMS collections.
+
+## Team
+
+Fields:
+
+Name
+Title
+Headshot
+Bio
+
+## Partners
+
+Fields:
+
+Name
+Logo
+Website URL
+
+## Impact Statistics
+
+Fields:
+
+Label
+Number
+Suffix
+Display Order
+
+Do not CMS-manage every paragraph on the website.
+
+Only content likely to change frequently should use CMS.
+
+---
+
+# Prompt 9 — WhatsApp Integration
+
+Configure all WhatsApp CTAs using:
+
+`https://wa.me/254768066569`
+
+Use contextual pre-filled messages.
+
+Products:
+
+**Hello Bahari Mezani, I'd like to place a fish order.**
+
+Cold Storage:
+
+**Hello Bahari Mezani, I'd like to enquire about cold storage rental.**
+
+Partnership:
+
+**Hello Bahari Mezani, I'd like to discuss a potential partnership.**
+
+General navigation CTA:
+
+Use a simple generic enquiry message.
+
+---
+
+# Prompt 10 — Final Design & Production Pass
+
+Audit the entire Bahari Mezani website and make it production-ready.
+
+Check:
+
+* Desktop at approximately 1440px
+* Tablet at approximately 768px
+* Mobile at approximately 390px
+* No text overflow
+* Consistent spacing
+* Consistent typography
+* Navigation responsiveness
+* WhatsApp links
+* Contact form
+* CMS data
+* Mobile menu
+* Image cropping
+* Alt text
+* Keyboard navigation
+* Colour contrast
+* WCAG 2.1 AA where practical
+* SEO titles
+* Meta descriptions
+* Open Graph images
+* Favicon
+* GA4
+* Image compression
+* WebP where appropriate
+* HTTPS
+* Custom domain
+
+Domain:
+
+**[www.baharimezani.com](http://www.baharimezani.com)**
+
+Keep animation restrained.
+
+Use count-up animations only for major statistics.
+
+Cards may move upward approximately 4px on hover.
+
+Navigation should smoothly transition from transparent to navy where applicable.
+
+The final site should feel like a **credible African infrastructure and food-supply company**, not an NGO template, seafood restaurant, e-commerce store or generic sustainability startup.
