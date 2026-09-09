@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import {
-  ArrowDownRight, ArrowRight, Check, Droplets, Mail, MapPin, Menu, Phone,
+  ArrowDownRight, ArrowRight, ArrowUpRight, Check, Droplets, Mail, MapPin, Menu, Phone,
   ShieldCheck, Truck, Users, X, Zap,
 } from 'lucide-react'
 
