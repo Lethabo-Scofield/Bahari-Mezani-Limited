@@ -24,8 +24,7 @@ const navItems = [
 
 function Logo({ light = false }) {
   return <a href="/" className={`logo ${light ? 'logo-light' : ''}`} aria-label="Bahari Mezani home">
-    <span className="logo-mark"><span /><span /></span>
-    <span className="logo-type"><strong>bahari</strong><em>mezani</em><small>LIMITED</small></span>
+    <img src="/images/bahari-mezani-logo.png" alt="Bahari Mezani" />
   </a>
 }
 
