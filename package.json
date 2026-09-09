@@ -1,0 +1,30 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "Bahari Mezani Limited marketing website",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 5000",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0 --port 5000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lethabo-Scofield/Bahari-Mezani-Limited.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Lethabo-Scofield/Bahari-Mezani-Limited/issues"
+  },
+  "homepage": "https://github.com/Lethabo-Scofield/Bahari-Mezani-Limited#readme",
+  "dependencies": {
+    "@vitejs/plugin-react": "^6.1.1",
+    "lucide-react": "^1.43.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "vite": "^8.2.2"
+  }
+}
