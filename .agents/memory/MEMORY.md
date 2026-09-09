@@ -1,0 +1,1 @@
+- [Portable npm installs](portable-npm-installs.md) — Replit-generated lockfiles may contain internal tarball URLs that external builders cannot resolve.

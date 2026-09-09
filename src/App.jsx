@@ -8,12 +8,13 @@ const WHATSAPP = 'https://wa.me/254768066569'
 const wa = (message) => `${WHATSAPP}?text=${encodeURIComponent(message)}`
 const images = {
   hero: 'https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=2200&q=88',
-  landing: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1400&q=85',
-  fisher: 'https://images.unsplash.com/photo-1530053969600-caed2596d242?auto=format&fit=crop&w=1400&q=85',
-  mangrove: 'https://images.unsplash.com/photo-1516690561799-46d8f74f9abf?auto=format&fit=crop&w=1800&q=85',
-  market: 'https://images.unsplash.com/photo-1534766555764-ce878a5e3a2b?auto=format&fit=crop&w=1400&q=85',
-  cold: 'https://images.unsplash.com/photo-1580674684081-7617fbf3d745?auto=format&fit=crop&w=1400&q=85',
-  coast: 'https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1800&q=85',
+  landing: '/images/landing-site.jpg',
+  fisher: '/images/kilifi-fishermen.jpg',
+  women: '/images/fish-handling.jpg',
+  mangrove: '/images/mangrove-restoration.jpg',
+  market: '/images/fresh-fish.jpg',
+  cold: '/images/cold-room.jpg',
+  coast: '/images/landing-site.jpg',
 }
 
 const navItems = [
@@ -67,6 +68,21 @@ function Footer() {
     </div>
     <div className="container footer-bottom"><span>© {new Date().getFullYear()} Bahari Mezani Limited</span><span>Samaki Freshi · Kilifi, Kenya</span></div>
   </footer>
+}
+
+function FloatingWhatsApp() {
+  return <a
+    className="floating-whatsapp"
+    href={wa('Hello Bahari Mezani, I have a general enquiry.')}
+    target="_blank"
+    rel="noreferrer"
+    aria-label="Chat with Bahari Mezani on WhatsApp"
+  >
+    <svg viewBox="0 0 32 32" aria-hidden="true">
+      <path fill="currentColor" d="M16.03 3.2A12.73 12.73 0 0 0 5.12 22.5L3.3 29.16l6.82-1.79a12.72 12.72 0 1 0 5.91-24.17Zm0 23.3a10.57 10.57 0 0 1-5.39-1.48l-.39-.23-4.05 1.06 1.08-3.95-.25-.4A10.57 10.57 0 1 1 16.03 26.5Zm5.8-7.91c-.32-.16-1.88-.93-2.17-1.03-.29-.11-.5-.16-.71.16-.21.31-.82 1.03-1 1.24-.19.21-.37.24-.69.08-.32-.16-1.34-.49-2.55-1.58a9.58 9.58 0 0 1-1.77-2.2c-.18-.32-.02-.49.14-.65.14-.14.32-.37.47-.55.16-.19.21-.32.32-.53.1-.21.05-.4-.03-.56-.08-.16-.71-1.72-.98-2.35-.26-.62-.52-.54-.71-.55h-.61c-.21 0-.55.08-.84.4-.29.32-1.11 1.08-1.11 2.64s1.14 3.07 1.29 3.28c.16.21 2.24 3.42 5.42 4.8.76.32 1.35.52 1.81.67.76.24 1.45.21 2 .13.61-.09 1.88-.77 2.14-1.51.26-.74.26-1.37.18-1.5-.08-.13-.29-.21-.61-.37Z"/>
+    </svg>
+    <span>Chat on WhatsApp</span>
+  </a>
 }
 
 function PageIntro({ eyebrow, title, copy, image }) {
@@ -156,7 +172,7 @@ function Impact() {
   const dashboard = [['120+', 'Women fish traders supported'], ['60+', 'Fishermen in supply chain'], ['30', 'Youth employed'], ['1,400', 'Mangroves restored'], ['Up to 40%', 'Post-harvest loss challenge addressed']]
   return <><Header /><main><section className="impact-hero" style={{ backgroundImage: `linear-gradient(90deg, rgba(13,43,69,.92), rgba(13,43,69,.35)), url(${images.mangrove})` }}><div className="container"><p className="eyebrow">Impact, measured locally</p><h1>This is what 1,400 mangroves and 120+ livelihoods look like.</h1><p>Bahari Mezani measures its impact through stronger livelihoods, coastal employment and protection of marine ecosystems alongside the growth of its cold-chain business.</p></div></section>
     <section className="dashboard"><div className="container"><SectionHeading eyebrow="Impact dashboard" title="Business growth should leave a stronger coastline behind." /><div className="dashboard-grid">{dashboard.map(([number, label]) => <div key={label}><strong>{number}</strong><span>{label}</span></div>)}</div></div></section>
-    <section className="section"><div className="container impact-story-grid"><div className="impact-story-image"><img src={images.market} alt="Women working with fresh fish" /></div><div className="impact-story-copy"><p className="eyebrow">Women</p><h2>Protecting the backbone of Kenya's coastal fish economy.</h2><p>Mama Karanga traders are central to the coastal fish economy. Access to cold-chain infrastructure reduces spoilage exposure, protects margins and improves product consistency.</p><strong className="story-number">120+ <small>women supported</small></strong></div></div></section>
+    <section className="section"><div className="container impact-story-grid"><div className="impact-story-image"><img src={images.women} alt="Women cleaning fresh fish at a coastal Kenya landing site" /></div><div className="impact-story-copy"><p className="eyebrow">Women</p><h2>Protecting the backbone of Kenya's coastal fish economy.</h2><p>Mama Karanga traders are central to the coastal fish economy. Access to cold-chain infrastructure reduces spoilage exposure, protects margins and improves product consistency.</p><strong className="story-number">120+ <small>women supported</small></strong></div></div></section>
     <section className="section section-offwhite"><div className="container impact-story-grid impact-story-reverse"><div className="impact-story-image"><img src={images.cold} alt="Logistics operations" /></div><div className="impact-story-copy"><p className="eyebrow">Youth</p><h2>30 young people employed in the cold economy.</h2><p>Cold-chain infrastructure creates practical roles across handling, processing, logistics and operations, giving coastal youth a place in a growing blue economy.</p></div></div></section>
     <section className="mangrove-band" style={{ backgroundImage: `linear-gradient(rgba(0,43,42,.55), rgba(0,43,42,.6)), url(${images.mangrove})` }}><div className="container mangrove-content"><p className="eyebrow">Coastal ecosystems</p><h2>Mangroves are nurseries of the sea.</h2><div><strong>1,400</strong><span>mangroves restored</span><small>Target: 50,000 by 2030</small></div></div></section>
     <section className="section"><div className="container"><div className="fishermen-row"><div><p className="eyebrow">Fishermen</p><h2>Fair pricing.<br /><em>Direct relationships.</em></h2></div><p>Bahari Mezani works directly with more than 60 local fishermen, creating a more predictable path from a fair landing-site price to a reliable customer.</p></div><div className="roadmap"><SectionHeading eyebrow="Looking ahead" title="Growth roadmap" copy="These are roadmap targets, not current achievements." /><div className="roadmap-grid">{[['Phase 1', '2024–2026', ['2 cold rooms', '300 community members', 'Seed funding']], ['Phase 2', '2027–2029', ['10 cold rooms', '3 coastal counties', 'Full logistics fleet']], ['Phase 3', '2030+', ['25 cold rooms', '500+ value-chain actors', '50,000 mangroves']]].map(([phase, years, targets]) => <div key={phase}><span>{phase}</span><h3>{years}</h3>{targets.map(target => <p key={target}><Check size={15} /> {target}</p>)}</div>)}</div></div></div></section>
@@ -165,7 +181,7 @@ function Impact() {
 
 function Contact() {
   const [sent, setSent] = useState(false)
-  return <><Header /><main><PageIntro eyebrow="Start a conversation" title={<>Let's talk<br /><em>fish.</em></>} copy="Whether you're sourcing for a hotel kitchen, exploring a partnership or interested in investing in Kenya's blue economy, get in touch." image={images.coast} />
+  return <><Header /><main><PageIntro eyebrow="Start a conversation" title={<>Let's talk<br /><em>fish.</em></>} copy="Whether you're sourcing for a hotel kitchen, exploring a partnership or interested in investing in Kenya's blue economy, get in touch." image={images.fisher} />
     <section className="section contact-section"><div className="container contact-grid"><div className="contact-details"><p className="eyebrow">Find us</p><h2>Good conversations<br /><em>start here.</em></h2><div className="contact-list"><a href={wa('Hello Bahari Mezani, I have a general enquiry.')}><Phone size={20} /><span><small>WhatsApp / Phone</small>+254 768 066 569</span></a><a href="mailto:baharimezani@outlook.com"><Mail size={20} /><span><small>Email</small>baharimezani@outlook.com</span></a><div><MapPin size={20} /><span><small>Visit us</small>Baobab Plaza, Charo Wa Mae Road<br />Kilifi, Kenya<br />P.O. Box 195 – 80108</span></div></div><a className="button button-gold" href={wa('Hello Bahari Mezani, I have a general enquiry.')}>Message us on WhatsApp <ArrowRight size={16} /></a></div><div className="contact-form-wrap"><p className="eyebrow">Send an enquiry</p>{sent ? <div className="form-success"><Check size={28} /><h3>Thanks for reaching out.</h3><p>Your message is ready to be sent. We’ll be in touch soon.</p></div> : <form onSubmit={(event) => { event.preventDefault(); setSent(true) }}><label>Full name <input required name="name" placeholder="Your name" /></label><label>Organisation <input name="organisation" placeholder="Company or organisation" /></label><div className="form-two"><label>Email <input required type="email" name="email" placeholder="you@example.com" /></label><label>Phone / WhatsApp <input name="phone" placeholder="+254" /></label></div><label>Enquiry type <select name="type" defaultValue="Buying Fish"><option>Buying Fish</option><option>Cold Storage Rental</option><option>Partnership</option><option>Investment</option><option>Media</option><option>General</option></select></label><label>Message <textarea required name="message" rows="4" placeholder="How can we help?" /></label><button className="button button-navy" type="submit">Send enquiry <ArrowRight size={16} /></button></form>}</div></div></section>
     <section className="map-section"><iframe title="Map showing Kilifi, Kenya" src="https://www.google.com/maps?q=Kilifi%2C%20Kenya&output=embed" loading="lazy" /></section>
   </main><Footer /></>
@@ -176,7 +192,7 @@ function App() {
   const path = window.location.pathname.replace(/\/$/, '') || '/'
   const pages = { '/': Home, '/about': About, '/cold-storage': ColdStorage, '/products': Products, '/impact': Impact, '/contact': Contact }
   const Page = pages[path] || Home
-  return <Page />
+  return <><Page /><FloatingWhatsApp /></>
 }
 
 export default App
